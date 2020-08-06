@@ -1,0 +1,18 @@
+#!/bin/bash
+#script for used software
+#
+
+
+sudo apt update
+sudo apt upgrade
+
+#__inkscape__
+echo installing inkscape
+sudo apt install inkscape
+
+#__deluge__ //torrent
+echo installing deluge
+sudo apt install deluge
+
+
+
