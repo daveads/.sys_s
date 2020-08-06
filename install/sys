@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+#powertop ba3 analysis tool
+sudo apt install powertop
