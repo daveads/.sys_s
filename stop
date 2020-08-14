@@ -25,4 +25,6 @@ echo stoping nginx....
 sudo service nginx stop
 echo stopped
 
-
+echo stoping postgresql....
+sudo service postgresql stop
+echo stopped
