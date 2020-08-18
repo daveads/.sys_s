@@ -1,0 +1,4 @@
+#!/bin/bash
+#available running process...
+
+service --status-all
