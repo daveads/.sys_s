@@ -1,0 +1,12 @@
+-------
+BASH
+-------
+
+##check out on
+---------------------------------------------
+* at //for execute schedules
+* cron && ancron //for execute schedules
++++++++++++++++++++++++++++++++++++++++++++
+* system.md // on startup
+* init.d // on startup
+----------------------------------------------

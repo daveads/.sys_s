@@ -1,0 +1,7 @@
+#!/bin/bash
+
+env | grep DBUS_SESSION_BUS_ADDRESS
+
+export DBUS_SESSION_BUS_ADDRESS
+
+exit 0

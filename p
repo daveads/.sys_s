@@ -1,3 +1,4 @@
 #!/bin/bash
 
-pip list
+notify-send "welcome back"
+espeak "how are you david"
