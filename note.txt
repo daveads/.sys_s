@@ -9,4 +9,12 @@ BASH
 +++++++++++++++++++++++++++++++++++++++++++
 * system.md // on startup
 * init.d // on startup
+* start up application
 ----------------------------------------------
+
+
+
+#MAJOR SETTINGS FILE PARTS#
+root access crontab -e
+.bashrc
+startup application* u
