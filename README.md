@@ -1,6 +1,7 @@
-file for bash scripts
+#bash scripting
 
-# experimenting and trying to automate stuffs that uses up mb
+experimental bash scripts to help manage system resources 
+personal use only
 
 
 
