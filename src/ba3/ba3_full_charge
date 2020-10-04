@@ -5,10 +5,12 @@
 
 ba3_charge_level()  {
 
-ba3_level=99
+ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
+
 ba3_status=$(cat /sys/class/power_supply/BAT1/status)
 
-if [ $ba3_level -eq 99 && ba3_status -eq "charging" ]; then
+if [[ ($ba3_level -eq 99) && ($ba3_status -eq "charging") ]]; then
+
 	notify-send "remove charger"
 	espeak "remove charger"
 
