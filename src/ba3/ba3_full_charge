@@ -1,0 +1,23 @@
+#!/bin/bash
+# This script is meant to alert when the ba3 is 99% and still charging
+# To keep the ba3 life...
+#
+
+ba3_charge_level()  {
+
+ba3_level=99
+ba3_status=$(cat /sys/class/power_supply/BAT1/status)
+
+if [ $ba3_level == 99 && ba3_status == "charging" ]; then
+	notify-send "remove charger"
+	espeak "remove charger"
+
+else
+	/usr/bin/notify-send "ba3 charge level ok"
+	
+fi
+
+ }
+
+ba3_charge_level
+
