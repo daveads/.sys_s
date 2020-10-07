@@ -14,7 +14,7 @@ while [ $ba3_level -ge  98 ] && [ $ba3_status == "Charging" ]; do
 	notify-send "remove charger"
 	espeak "remove charger"
 	
-	if [ $ba3_status == "discharging" ]; then
+	if [ $ba3_status == "Discharging" ]; then
 		break
 	fi
 
