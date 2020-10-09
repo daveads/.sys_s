@@ -1,0 +1,16 @@
+#!/bin/bash
+# The environment variable for android and related setups
+
+#ANDROID
+export ANDROID_HOME=/home/evad/Android/Sdk
+export ANDROID_SDK=/home/evad/Android/Sdk
+export PATH=/home/evad/Android/Sdk:$PATH
+export PATH=/home/evad/Android/Sdk/platform-tools:$PATH
+export PATH=/home/evad/Android/Sdk/tools/bin:$PATH
+export PATH=/home/evad/Android/Sdk/platforms:$PATH
+export PATH=/home/evad/Android/Sdk/emulator:$PATH
+
+#Android bin
+export PATH=$PATH:/opt/android-studio/bin
+
+notify-send "am here"
