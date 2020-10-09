@@ -1,4 +1,0 @@
-scripts || system automation ideas
-
-
-#run a script base on inputs from the user..... "which is me"
