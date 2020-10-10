@@ -1,0 +1,28 @@
+[user]
+	name = daveads
+	email = the.daveads@gmail.com
+[core]
+	editor = vim
+	
+	
+[alias]
+	#changes last commit message
+	recommit = commit --amend -m 
+	
+	#adds last commit to new changes in the repo
+	same-commit = commit --amend --no-edit
+	
+	#adds an init	&& git add . && git commit messages first run
+	start = git init && git add . && git commit -m \"initial\"
+	
+       search = grep
+       
+       who = blame
+       
+       zip = archive --format=tar.gz -o ../repo.tar.gz
+       
+       lonely = clone --single-branch --branch
+
+      	fresh = filter-branch --prune-empty --subdirectory-filter
+      
+      
