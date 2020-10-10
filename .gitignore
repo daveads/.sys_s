@@ -1,2 +1,7 @@
 #bunch of notes
 /ideas_
+
+# vim temporary files
+*.swp
+
+
