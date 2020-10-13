@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#set up for dev_env
+
+#alacritty
+ln -sf ~/.sys_s/src/dev_env/alacritty.yml $HOME/.config/alacritty/
+
+#.tmux.conf
+ln -sf ~/.sys_s/src/dev_env/.tmux.conf $HOME
