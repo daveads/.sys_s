@@ -6,14 +6,14 @@
 	
 	
 [alias]
-	#changes last commit message
-	recommit = commit --amend -m 
+       #changes last commit message
+       recommit = commit --amend -m 
 	
-	#adds last commit to new changes in the repo
-	same-commit = commit --amend --no-edit
+       #adds last commit to new changes in the repo
+       same-commit = commit --amend --no-edit
 	
-	#adds an init	&& git add . && git commit messages first run
-	#start = git init && git add . && git commit -m \"initial\"
+       #adds an init	&& git add . && git commit messages first run
+       #start = git init && git add . && git commit -m \"initial\"
 	
        search = grep
        
