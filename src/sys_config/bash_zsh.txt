@@ -1,0 +1,10 @@
+plugins::
+
+Bash-it && oh-my-zsh
+
+
+# vim-plug
+
+
+
+
