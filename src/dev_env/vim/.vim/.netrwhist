@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/evad/Desktop/alacritty/alacritty/src'
+let g:netrw_dirhist_7='/home/evad/Desktop/alacritty/alacritty_terminal'
+let g:netrw_dirhist_6='/etc/systemd/system'
+let g:netrw_dirhist_5='/.DWP/crypto_passwords_keys'
+let g:netrw_dirhist_4='/home/evad/Desktop/postgre_on_heruku/books_server'
+let g:netrw_dirhist_3='/home/evad/Desktop/scripts_py_js/python/project_test/my_sum'
+let g:netrw_dirhist_2='/home/evad/Desktop/scripts_py_js/python/project_test'
+let g:netrw_dirhist_1='/home/evad/Desktop/my_p_site'
