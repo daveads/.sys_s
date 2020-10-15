@@ -153,8 +153,8 @@ if [ -f ~/.sys_s/src/dev_env/android_env_setup ]; then
 fi
 
 # mouse click lxqt && lxde
-if [ -f ~/.sys_s/src/sys/mouse ]; then
-	. ~/.sys_s/src/sys/mouse
+if [ -f ~/.sys_s/src/sys_config/mouse ]; then
+	. ~/.sys_s/src/sys_config/mouse
 fi
 
 
@@ -180,7 +180,7 @@ export SYS_S=/home/evad/.sys_s
 export PATH=$PATH:"/home/evad/.sys_s/src"
 export PATH=$PATH:"/home/evad/.sys_s/src/ba3"
 export PATH=$PATH:"/home/evad/.sys_s/src/py_s"
-export PATH=$PATH:"/home/evad/.sys_s/src/sys"
+export PATH=$PATH:"/home/evad/.sys_s/src/sys_config"
 
 
 
