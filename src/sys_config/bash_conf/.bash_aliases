@@ -1,4 +1,5 @@
-alias s='stop stop'
+#put system in a suspend state @lxqt
+alias s='sudo lxqt-leave --suspend'
 
 #emulator status
 alias emu_stat='emulator -list-avds'
