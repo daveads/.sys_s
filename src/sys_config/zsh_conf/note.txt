@@ -1,0 +1,4 @@
+#
+# going to contain zsh_config file 
+# and a rewrite of for bash scripts programs
+# available in zsh
