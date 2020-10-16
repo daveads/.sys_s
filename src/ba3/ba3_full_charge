@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/sur/bin/env bash
 # This script is meant to alert when the ba3 is 96% and still charging
 # To keep the ba3 life...
 #
@@ -9,14 +9,11 @@ ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
 ba3_status=$(cat /sys/class/power_supply/BAT1/status)
 
 
-while [ $ba3_level -ge  98 ] && [ $ba3_status == "Charging" ]; do
+if [ $ba3_level -ge  96 ] && [ $ba3_status == "Charging" ]; then
 	
 	notify-send "remove charger"
 	espeak "remove charger"
-	
-	if [ $ba3_status == "Discharging" ]; then
-		break
-	fi
 
-done
+fi
+
 
