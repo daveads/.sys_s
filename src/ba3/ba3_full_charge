@@ -1,4 +1,4 @@
-#!/sur/bin/env bash
+#!/usr/bin/env bash
 # This script is meant to alert when the ba3 is 96% and still charging
 # To keep the ba3 life...
 #
