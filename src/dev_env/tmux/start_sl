@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#symbolic link for bash_setup
+
+# .bashrc
+ln -sf ~/.sys_s/src/dev_env/tmux/.tmux.conf  ~/.tmux.conf
+
+
+# .bash_profile
+# ln -sf ~/.sys_s/src
+# add bash alias <<<

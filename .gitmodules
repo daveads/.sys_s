@@ -7,3 +7,4 @@
 [submodule "src/dev_env/vim/.vim/bundle/vim-multiple-cursors"]
 	path = src/dev_env/vim/.vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+
