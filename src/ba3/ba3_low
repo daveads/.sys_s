@@ -9,15 +9,9 @@ ba3_level="$(cat /sys/class/power_supply/BAT1/capacity)"
 
 if [ $ba3_level -eq $exp_ba3 ]; then
 
-	notify-send "bat3 low"
 	sudo pm-hibernate
-	espeak "battery low"
-
-else
-	/usr/bin/notify-send "battery ok"
 	
 fi
-
  }
 
 hib
