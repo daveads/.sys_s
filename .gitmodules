@@ -22,3 +22,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/coc.nvim"]
 	path = src/dev_env/vim/.vim/bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "src/dev_env/vim/.vim/bundle/dart-vim-plugin"]
+	path = src/dev_env/vim/.vim/bundle/dart-vim-plugin
+	url = https://github.com/dart-lang/dart-vim-plugin.git
