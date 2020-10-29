@@ -12,7 +12,7 @@ feel free to dig through you might find some thing that interest you......
 
 
 
-## pluging for bash && zsh
+## plugin for bash && zsh
 
 
 
