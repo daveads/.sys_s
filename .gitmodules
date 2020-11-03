@@ -25,3 +25,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/dart-vim-plugin"]
 	path = src/dev_env/vim/.vim/bundle/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
+[submodule "src/dev_env/vim/.vim/bundle/kotlin-vim"]
+	path = src/dev_env/vim/.vim/bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim.git
