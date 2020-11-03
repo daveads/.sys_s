@@ -15,5 +15,5 @@ feel free to dig through you might find some thing that interest you......
 ## plugin for bash && zsh
 
 
-
+- submodule update :  git submodule update --remote --recursive
 
