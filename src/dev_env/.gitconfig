@@ -25,6 +25,15 @@
 
        fresh = filter-branch --prune-empty --subdirectory-filter
        
+       # show status
        stat-s = status  -s
-      
-      
+      	
+       # stash
+       # stash current files // will read on this later
+       mystash = stash save "current file change"
+       
+       # unstash the changes
+       unstash = stash pop
+       
+       # check this later
+       ## git stash list && stash pop "stash@{1}"
