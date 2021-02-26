@@ -7,9 +7,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/vim-multiple-cursors"]
 	path = src/dev_env/vim/.vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
-[submodule "src/dev_env/tmux/.tmux/plugins/tpm"]
-	path = src/dev_env/tmux/.tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "src/dev_env/vim/.vim/bundle/vim-fugitive"]
 	path = src/dev_env/vim/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -19,9 +16,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/vim-airline-themes"]
 	path = src/dev_env/vim/.vim/bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
-[submodule "src/dev_env/vim/.vim/bundle/coc.nvim"]
-	path = src/dev_env/vim/.vim/bundle/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
 [submodule "src/dev_env/vim/.vim/bundle/dart-vim-plugin"]
 	path = src/dev_env/vim/.vim/bundle/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
