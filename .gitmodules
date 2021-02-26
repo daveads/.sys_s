@@ -25,3 +25,9 @@
 [submodule "src/dev_env/vim/.vim/bundle/vimwiki"]
 	path = src/dev_env/vim/.vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
+[submodule "src/dev_env/vim/.vim/bundle/coc.nvim"]
+	path = src/dev_env/vim/.vim/bundle/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "src/dev_env/tmux/.tmux/plugins/tpm"]
+	path = src/dev_env/tmux/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
