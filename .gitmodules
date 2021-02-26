@@ -28,3 +28,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/kotlin-vim"]
 	path = src/dev_env/vim/.vim/bundle/kotlin-vim
 	url = https://github.com/udalov/kotlin-vim.git
+[submodule "src/dev_env/vim/.vim/bundle/vimwiki"]
+	path = src/dev_env/vim/.vim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
