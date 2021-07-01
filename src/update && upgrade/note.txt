@@ -1,0 +1,9 @@
+This is files are meamt to automate 
+
+updates and upgrades........... 
+
+languages and other tools
+
+will have to come up with something..... 
+
+in "bash or python" my main language to system scripting

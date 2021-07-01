@@ -1,0 +1,5 @@
+pane	0	0	:htop	1	:*	0	:/home/evad/Downloads/api_checking/exam/website	1	htop	:htop
+pane	0	0	:htop	1	:*	1	:/home/evad/Downloads/api_checking/exam	0	bash	:
+pane	0	0	:htop	1	:*	2	:/home/evad/Downloads/api_checking/exam/website	0	bash	:
+window	0	0	1	:*	ab97,112x101,0,0{57x101,0,0,0,54x101,58,0[54x50,58,0,1,54x50,58,51,2]}
+state	0	

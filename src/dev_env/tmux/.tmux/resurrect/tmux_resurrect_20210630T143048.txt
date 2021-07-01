@@ -1,0 +1,15 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Desktop/Tylease/tyCompany/tylease1	1	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+/home/evad/.pyenv/versions/3.7.7/bin/python
+pane	0	0	:bash	1	:*	1	:/home/evad/Downloads/api_checking/exam	0	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python
+pane	0	0	:bash	1	:*	2	:/home/evad/Desktop/Tylease/tyCompany/tylease	0	bash	:
+window	0	0	1	:*	d83c,144x35,0,0{95x35,0,0,0,48x35,96,0[48x17,96,0,1,48x17,96,18,2]}
+state	0	

@@ -1,0 +1,8 @@
+pane	0	0	:bash	1	:*	0	:/home/evad	1	bash	:
+pane	0	0	:bash	1	:*	1	:/home/evad	0	bash	:
+pane	0	0	:bash	1	:*	2	:/home/evad	0	htop	:htop
+pane	0	1	:bash	0	:-	0	:/home/evad/Desktop/mrChris/Goopho/backend/goopho/goopho/model	0	nvim	:nvim user.py
+pane	0	1	:bash	0	:-	1	:/home/evad	1	bash	:
+window	0	0	1	:*	62a6,144x35,0,0{72x35,0,0,0,71x35,73,0[71x17,73,0,1,71x17,73,18,2]}
+window	0	1	0	:-	2431,144x35,0,0{98x35,0,0,3,45x35,99,0,5}
+state	0	

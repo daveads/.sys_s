@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This needs a rewrite
 
 start(){
 	echo ddd
@@ -35,11 +35,7 @@ echo stoping postgresql....
 sudo service postgresql stop
 echo stopped
 
-notify-send "Done with stop processes *88888888888888888888888888888888888888888888*****************88888888888888
- thi s a g qeat  a g qew 
-" -i /home/evad/Pictures/Wallpapers/wp1828918-programmer-wallpapers.jpg
-
-espeak "working"
+notify-send "Done!!"
 
 }
 

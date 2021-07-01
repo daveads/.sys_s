@@ -1,0 +1,7 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Desktop	0	bash	:
+pane	0	0	:bash	1	:*	1	:/home/evad/Desktop/mrChris/FreeT\ (exp)	0	bash	:
+pane	0	0	:bash	1	:*	2	:/home/evad/Desktop/mrChris/FreeT\ (exp)	1	bash	:ping www.google.com
+pane	0	1	:bash	0	:-	0	:/home/evad/Appimage/Telegram/tel	1	bash	:
+window	0	0	1	:*	3f2e,144x35,0,0{73x35,0,0[73x17,0,0,0,73x17,0,18,3],70x35,74,0,2}
+window	0	1	0	:-	bf7e,144x35,0,0,1
+state	0	

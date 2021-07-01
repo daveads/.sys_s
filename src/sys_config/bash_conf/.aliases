@@ -1,3 +1,5 @@
+# i need to create a sperate folder for this like ".bash_it"
+
 #put system in a suspend state @lxqt
 alias lg='sudo lxqt-leave --suspend'
 
@@ -9,3 +11,17 @@ alias emu_run='emulator -avd Pixel_3_XL_API_28'
 
 #running process
 alias pros='service --status-all'
+
+
+
+#nvims
+alias n='nvim'
+
+#dotfiles dir
+alias sys='cd $SYS_S'
+
+#wifi restart
+alias wr='wifi off && wifi on'
+
+#manually update system
+alias upg='sudo apt update && sudo apt upgrade'

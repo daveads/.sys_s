@@ -121,14 +121,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-# THIS IS PYENV ENV VARIABLE //editing later
-#export PYENV_ROOT="$HOME/.pyenv"
-#export PATH="$PYENV_ROOT/bin:$PATH"
-
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -143,7 +135,7 @@ export PATH="$HOME/gems/bin:$PATH"
 
 
 #Java bin
-export JAVA_HOME=/usr/local/java/jdk1.8.0_251
+export JAVA_HOME=/usr/local/java/jdk1.8.0_291
 export PATH=${PATH}:${JAVA_HOME}/bin
 
 
@@ -183,7 +175,9 @@ export PATH=$PATH:"/home/evad/.sys_s/src/py_s"
 export PATH=$PATH:"/home/evad/.sys_s/src/sys_config"
 
 
-
+## NOTES
+export NOTES=/home/evad/Desktop/_notes
+export PATH=$PATH:"/home/evad/Desktop/_notes/src"
 
 # If not running interactively, don't do anything
 case $- in
@@ -258,6 +252,24 @@ export PATH=$PATH:/usr/local/go/bin
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
 
 
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+[ -f "/home/evad/.ghcup/env" ] && source "/home/evad/.ghcup/env" # ghcup-env
+
+# history with time
+export HISTTIMEFORMAT="%c "
+
+
+# will have to changes this later 
+#Libaries and tools
+export kot=/home/evad/Desktop/kotlin/kt/toolK
+export PATH=$PATH:"/home/evad/Desktop/kotlin/kt/toolK"
+
+# pyenv 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/evad/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -272,3 +284,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# >> go version manager
+[[ -s "/home/evad/.gvm/scripts/gvm" ]] && source "/home/evad/.gvm/scripts/gvm"

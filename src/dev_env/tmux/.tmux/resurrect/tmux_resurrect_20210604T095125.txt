@@ -1,0 +1,17 @@
+pane	0	0	:bash	0	:	0	:/home/evad/Downloads/api_checking	0	bash	:
+pane	0	0	:bash	0	:	1	:/home/evad/Downloads/api_checking	0	bash	:
+pane	0	0	:bash	0	:	2	:/home/evad/Downloads/api_checking	1	bash	:
+pane	0	0	:bash	0	:	3	:/home/evad/Downloads/api_checking	0	nvim	:nvim api.py
+pane	0	1	:nvim	0	:	0	:/home/evad/Desktop/mrChris	0	bash	:
+pane	0	1	:nvim	0	:	1	:/home/evad/Desktop/mrChris/api_test	1	nvim	:nvim test_todo_api.py
+pane	0	2	:bash	0	:-	0	:/home/evad	0	bash	:
+pane	0	2	:bash	0	:-	1	:/home/evad/Downloads/api_checking	0	bash	:
+pane	0	2	:bash	0	:-	2	:/home/evad/Desktop/python/recap	1	bash	:
+pane	0	2	:bash	0	:-	3	:/home/evad/.cry	0	bash	:
+pane	0	3	:bash	1	:*	0	:/home/evad/.cry/hummingbot	0	bash	:
+pane	0	3	:bash	1	:*	1	:/home/evad/.cry	1	keepassxc	:keepassxc
+window	0	0	0	:	2351,144x35,0,0{72x35,0,0[72x21,0,0,1,72x13,0,22,2],71x35,73,0[71x17,73,0,3,71x17,73,18,4]}
+window	0	1	0	:	5de9,144x35,0,0{72x35,0,0,5,71x35,73,0,6}
+window	0	2	0	:-	5c34,144x35,0,0{84x35,0,0[84x17,0,0,7,84x17,0,18,8],59x35,85,0[59x17,85,0,9,59x17,85,18,10]}
+window	0	3	1	:*	5936,144x35,0,0{72x35,0,0,11,71x35,73,0,12}
+state	0	

@@ -1,0 +1,17 @@
+nvm -js manager
+sdk -java manager
+
+conda...........>??
+
+pyenv -python manager
+
+rvm -ruby manager
+
+
+C, c++ , rust, java, kotlin, haskel, dart(flutter), go
+gcc && clang
+
+download manager
+nvm, pyenv, rvm, sdkman............
+
+Android studio

@@ -1,19 +1,17 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #ba3 full alert script
 # To sav the ba3 life...
 #
 
 
-ba3_level="$(cat /sys/class/power_supply/BAT1/capacity)"
+ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
 
-ba3_status="$(cat /sys/class/power_supply/BAT1/status)"
+ba3_status=$(cat /sys/class/power_supply/BAT1/status)
 
 
-if [ $ba3_level -ge  95 ] && [ $ba3_status == "Charging" ]; then
+if [ $ba3_level -ge  97 ] && [ $ba3_status == "Charging" ]; then
 	
 	notify-send "remove charger"
 	espeak "remove charger"
 
 fi
-
-

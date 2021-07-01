@@ -1,0 +1,27 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Desktop/Tylease/tyCompany/tylease	0	bash	:python
+python
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install mysqlclient
+python
+python
+python
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install flask-mysqldb
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install mariadb
+python
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install mysqlclient
+pane	0	0	:bash	1	:*	1	:/home/evad	1	bash	:bash /home/evad/.pyenv/pyenv.d/exec/pip-rehash/pip install flask-mysqldb
+pane	0	1	:bash	0	:-	0	:/home/evad/.cry	0	bash	:/bin/bash /home/evad/Desktop/_notes/src/note
+pane	0	1	:bash	0	:-	1	:/home/evad/.sdkman/src	1	bash	:bash /home/evad/.sys_s/src/gop
+pane	1	0	:nvim	1	:*	0	:/home/evad/Downloads/cpu\ (youtube)/cpu_basic_0toinfi	1	nvim	:nvim hello.s
+pane	1	0	:nvim	1	:*	1	:/home/evad	0	nvim	:nvim .vimrc
+window	0	0	1	:*	0193,144x35,0,0{85x35,0,0,0,58x35,86,0,1}
+window	0	1	0	:-	e8ab,144x35,0,0{83x35,0,0,2,60x35,84,0,3}
+window	1	0	1	:*	5e4b,150x37,0,0{75x37,0,0,4,74x37,76,0,5}
+state	1	

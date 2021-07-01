@@ -37,3 +37,5 @@
        
        # check this later
        ## git stash list && stash pop "stash@{1}"
+[init]
+	defaultBranch = main

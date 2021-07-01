@@ -1,0 +1,17 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Desktop/Tylease/tyCompany/tylease	1	bash	:python
+python
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install mysqlclient
+python
+python
+python
+python
+python
+/home/evad/Desktop/Tylease/tyCompany/tyenv/bin/python /home/evad/Desktop/Tylease/tyCompany/tyenv/bin/pip install flask-mysqldb
+python
+pane	0	0	:bash	1	:*	1	:/home/evad	0	bash	:bash /home/evad/.pyenv/pyenv.d/exec/pip-rehash/pip install flask-mysqldb
+pane	0	1	:bash	0	:-	0	:/home/evad/.cry	1	bash	:
+window	0	0	1	:*	49f1,112x101,0,0{73x101,0,0,0,38x101,74,0,1}
+window	0	1	0	:-	870f,112x101,0,0,2
+state	0	

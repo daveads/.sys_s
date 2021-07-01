@@ -1,0 +1,16 @@
+pane	0	0	:python	0	:-	0	:/home/evad/Desktop	0	bash	:
+pane	0	0	:python	0	:-	1	:/home/evad/Appimage/Telegram/tel	1	python	:ping www.google.com
+/home/evad/.pyenv/versions/3.8.3/bin/python
+/home/evad/.pyenv/versions/3.8.3/bin/python
+pane	0	1	:bash	0	:	0	:/home/evad/Appimage/Telegram/tel	1	bash	:
+pane	0	2	:python	1	:*	0	:/home/evad/Desktop/py_clean_up	1	python	:/home/evad/.pyenv/versions/3.7.7/bin/python
+pane	1	0	:python	1	:*	0	:/home/evad/Desktop/mrChris/api_test	1	python	:/home/evad/.pyenv/versions/3.7.7/bin/python todo_api.py
+pane	1	0	:python	1	:*	1	:/home/evad/Desktop/mrChris/api_test	0	nvim	:nvim test_todo_api.py
+pane	2	0	:bash	1	:*	0	:/media/evad/evad_self/Persepolis\ dec27-12-20/Videos/api/testing	1	bash	:
+pane	2	0	:bash	1	:*	1	:/media/evad/evad_self/Persepolis\ dec27-12-20/Videos/api/testing	0	python	:/home/evad/.pyenv/versions/3.7.7/bin/python
+window	0	0	0	:-	4f03,144x35,0,0{80x35,0,0,0,63x35,81,0,2}
+window	0	1	0	:	bf7e,144x35,0,0,1
+window	0	2	1	:*	bf80,144x35,0,0,3
+window	1	0	1	:*	869a,144x35,0,0{76x35,0,0,5,67x35,77,0,8}
+window	2	0	1	:*	dded,144x35,0,0{72x35,0,0,6,71x35,73,0,7}
+state	1	2

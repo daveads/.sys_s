@@ -1,0 +1,4 @@
+pane	0	1	:bash	1	:*	0	:/home/evad/Downloads/Stupid\ Vld/golang	1	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python main.py
+/bin/bash /home/evad/Desktop/_notes/src/note
+window	0	1	1	:*	bbdd,68x35,0,0,0
+state	0	

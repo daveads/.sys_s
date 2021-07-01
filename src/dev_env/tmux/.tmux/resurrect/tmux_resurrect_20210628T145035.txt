@@ -1,0 +1,4 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Downloads/Stupid\ Vld/golang	0	bash	:
+pane	0	0	:bash	1	:*	1	:/home/evad/Downloads/api_checking/exam	1	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python main.py
+window	0	0	1	:*	0193,144x35,0,0{66x35,0,0,0,77x35,67,0,1}
+state	0	

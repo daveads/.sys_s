@@ -1,0 +1,9 @@
+.vim/bundle
+git submodule add -f https://github.com/neoclide/coc.nvim.git
+
+
+.tmux/plugins
+
+git submodule add -f https://github.com/tmux-plugins/tpm.git
+
+

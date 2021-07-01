@@ -1,0 +1,17 @@
+pane	0	0	:bash	0	:-	0	:/home/evad/Downloads/api_checking	0	bash	:
+pane	0	0	:bash	0	:-	1	:/home/evad/Downloads/api_checking	1	nvim	:nvim test_api.py
+pane	0	0	:bash	0	:-	2	:/home/evad/Downloads/api_checking	0	python	:/home/evad/.pyenv/versions/3.7.7/bin/python api.py
+pane	0	0	:bash	0	:-	3	:/home/evad/Downloads/api_checking	0	nvim	:nvim api.py
+pane	0	1	:nvim	1	:*	0	:/home/evad/Desktop/mrChris	0	bash	:
+pane	0	1	:nvim	1	:*	1	:/home/evad/Desktop/mrChris/api_test	1	nvim	:nvim test_todo_api.py
+pane	0	2	:bash	0	:	0	:/home/evad/Desktop/mrChris/Goopho/backend	1	bash	:
+pane	0	2	:bash	0	:	1	:/home/evad/Desktop/mrChris/Frees(exp)/backend/env	0	bash	:
+pane	0	3	:bash	0	:	0	:/home/evad/.cry/hummingbot	1	bash	:
+pane	0	4	:bash	0	:	0	:/home/evad/Desktop/python/recap/test	0	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python
+pane	0	4	:bash	0	:	1	:/home/evad/.cry	1	bash	:
+window	0	0	0	:-	1e16,112x101,0,0{56x101,0,0[56x54,0,0,1,56x46,0,55,2],55x101,57,0[55x50,57,0,3,55x50,57,51,4]}
+window	0	1	1	:*	c9fd,112x101,0,0{16x101,0,0,5,95x101,17,0,6}
+window	0	2	0	:	9943,144x35,0,0{72x35,0,0,17,71x35,73,0,24}
+window	0	3	0	:	5ff0,144x35,0,0,11
+window	0	4	0	:	193a,144x35,0,0{72x35,0,0,22,71x35,73,0,23}
+state	0	

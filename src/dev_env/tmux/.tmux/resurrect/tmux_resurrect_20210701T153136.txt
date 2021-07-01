@@ -1,0 +1,16 @@
+pane	0	0	:bash	0	:	0	:/home/evad/Desktop/Tylease/tyCompany/tylease1	0	bash	:
+pane	0	0	:bash	0	:	1	:/home/evad/Downloads/api_checking/exam	0	bash	:
+pane	0	0	:bash	0	:	2	:/home/evad/Desktop/mrChris/Goopho/backend/goopho	1	bash	:
+pane	0	1	:python	1	:*	0	:/home/evad/Desktop/mrChris/Goopho/backend/goopho_fastapi	0	bash	:python
+python api.py
+pane	0	1	:python	1	:*	1	:/home/evad/Desktop	1	nvim	:npm
+npm
+npm
+nvim runningfast.md
+pane	0	1	:python	1	:*	2	:/home/evad/Desktop/_notes	0	bash	:/bin/bash /home/evad/Desktop/_notes/src/note
+pane	0	2	:bash	0	:-	0	:/home/evad/Desktop/_notes/learned	1	bash	:/bin/bash /home/evad/Desktop/_notes/src/note
+pane	0	2	:bash	0	:-	1	:/home/evad	0	mysql	:mysql -u root -p
+window	0	0	0	:	6d38,144x35,0,0{103x35,0,0,1,40x35,104,0[40x18,104,0,2,40x16,104,19,3]}
+window	0	1	1	:*	e6ab,144x35,0,0{72x35,0,0,4,71x35,73,0[71x17,73,0,5,71x17,73,18,8]}
+window	0	2	0	:-	e2dd,144x35,0,0{63x35,0,0,6,80x35,64,0,7}
+state	0	

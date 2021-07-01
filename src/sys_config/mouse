@@ -16,7 +16,8 @@
 
 # "libinput Tapping Enabled (310): 0"
 
-xinput set-prop 11 310 1 
+# errors
 
-xinput --disable 9 #disables the multi touch
+#xinput set-prop 11 310 1 
+#xinput --disable 9 #disables the multi touch
 

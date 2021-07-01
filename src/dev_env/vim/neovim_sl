@@ -1,0 +1,4 @@
+#nvim
+
+ln -sf $HOME/.sys_s/src/dev_env/vim/nvim $HOME/.config
+

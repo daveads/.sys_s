@@ -1,0 +1,8 @@
+pane	0	0	:./Telegram	1	:*	0	:/home/evad	0	bash	:
+pane	0	0	:./Telegram	1	:*	1	:/home/evad/.local/share/TelegramDesktop	1	./Telegram	:./Telegram
+pane	0	0	:./Telegram	1	:*	2	:/home/evad	0	bash	:
+pane	0	1	:bash	0	:-	0	:/home/evad/Desktop/mrChris/Goopho/backend/goopho/goopho/model	0	nvim	:nvim user.py
+pane	0	1	:bash	0	:-	1	:/home/evad	1	bash	:
+window	0	0	1	:*	7ddd,112x101,0,0{56x101,0,0,0,55x101,57,0[55x50,57,0,1,55x50,57,51,2]}
+window	0	1	0	:-	2431,144x35,0,0{98x35,0,0,3,45x35,99,0,5}
+state	0	

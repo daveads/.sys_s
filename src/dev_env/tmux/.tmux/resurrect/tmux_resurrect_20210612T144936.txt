@@ -1,0 +1,8 @@
+pane	0	0	:bash	1	:*	0	:/home/evad/Desktop/Tylease/tyCompany/tylease	1	bash	:python
+python
+python
+pane	0	0	:bash	1	:*	1	:/home/evad	0	bash	:
+pane	0	1	:bash	0	:-	0	:/home/evad/.cry	1	bash	:
+window	0	0	1	:*	7f57,144x35,0,0{99x35,0,0,0,44x35,100,0,1}
+window	0	1	0	:-	870f,112x101,0,0,2
+state	0	
