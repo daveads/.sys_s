@@ -1,0 +1,15 @@
+#!/bin/bash
+
+command_exists() {
+    # check if command exists and fail otherwise
+    command -v "$1" >/dev/null 2>&1
+    if [[ $? -ne 0 ]]; then
+        echo "$1 not installed"
+	sudo apt install htop
+        exit 1
+    fi
+}
+
+for COMMAND in "awk" "sed" "grep" "tar" "gzip" "which" "openssl" "curl" "alacritty" ; do
+    command_exists "${COMMAND}"
+done

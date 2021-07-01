@@ -3,7 +3,35 @@
 #set up for dev_env
 
 #alacritty
-ln -sf ~/.sys_s/src/dev_env/alacritty.yml $HOME/.config/alacritty/
+if [ ! -d "$HOME/.config/alacritty" ] && [ ! -L "$HOME/.config/alacritty/alacritty.yml" ]; then 
 
+	echo "#################################################################"
+	echo " creating a directory for Alacritty && ln config file for"
+	mkdir ~/.config/alacritty       
+	ln -sf ~/.sys_s/src/dev_env/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+	echo "Done..........!!!!"
+	echo "#################################################################"
+	
+		
+elif  [ -d "$HOME/.config/alacritty" ] && [ ! -L "$HOME/.config/alacritty/alacritty.yml" ]; then 
+
+        echo "creating ln, dir exist"
+        ln -sf ~/.sys_s/src/dev_env/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+    
+     
+fi
+	
 #.tmux.conf
-ln -sf ~/.sys_s/src/dev_env/.tmux.conf $HOME
+if [ ! -L "$HOME/.tmux.conf" ]; then
+
+	echo "#################################################################"
+	echo "creating a config file for tmux"
+	ln  -sf  ~/.sys_s/src/dev_env/tmux/.tmux.conf  $HOME/.tmux.conf
+	echo "Done......!!!"
+	echo "#################################################################"
+fi
+
+# TODO
+# check if a binary file exist 
+# better output
+

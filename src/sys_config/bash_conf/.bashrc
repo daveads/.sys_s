@@ -288,3 +288,5 @@ unset __conda_setup
 
 # >> go version manager
 [[ -s "/home/$USER/.gvm/scripts/gvm" ]] && source "/home/$USER/.gvm/scripts/gvm"
+
+[[ -s "/home/daveads/.gvm/scripts/gvm" ]] && source "/home/daveads/.gvm/scripts/gvm"
