@@ -125,8 +125,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/evad/.sdkman"
-[[ -s "/home/evad/.sdkman/bin/sdkman-init.sh" ]] && source "/home/evad/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/$USER/.sdkman"
+[[ -s "/home/$USER/.sdkman/bin/sdkman-init.sh" ]] && source "/home/$USER/.sdkman/bin/sdkman-init.sh"
 
 
 # Install Ruby Gems to ~/gems
@@ -151,7 +151,7 @@ fi
 
 
 #Android studio IDE Bin
-export PATH=$PATH:/home/evad/ide/eclipse
+export PATH=$PATH:/home/$USER/ide/eclipse
 
 # Dart programming lang bin
 
@@ -168,16 +168,16 @@ export PATH=${PATH}:${flutter_HOME}/bin
 # MAJOR TOOLS AND automating scripts
 #
 #my_own bash scripts...
-export SYS_S=/home/evad/.sys_s
-export PATH=$PATH:"/home/evad/.sys_s/src"
-export PATH=$PATH:"/home/evad/.sys_s/src/ba3"
-export PATH=$PATH:"/home/evad/.sys_s/src/py_s"
-export PATH=$PATH:"/home/evad/.sys_s/src/sys_config"
+export SYS_S=/home/$USER/.sys_s
+export PATH=$PATH:"/home/$USER/.sys_s/src"
+export PATH=$PATH:"/home/$USER/.sys_s/src/ba3"
+export PATH=$PATH:"/home/$USER/.sys_s/src/py_s"
+export PATH=$PATH:"/home/$USER/.sys_s/src/sys_config"
 
 
 ## NOTES
-export NOTES=/home/evad/Desktop/_notes
-export PATH=$PATH:"/home/evad/Desktop/_notes/src"
+export NOTES=/home/$USER/Desktop/_notes
+export PATH=$PATH:"/home/$USER/Desktop/_notes/src"
 
 # If not running interactively, don't do anything
 case $- in
@@ -186,7 +186,7 @@ case $- in
 esac
 
 # Path to the bash it configuration
-export BASH_IT="/home/evad/.bash_it"
+export BASH_IT="/home/$USER/.bash_it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
@@ -253,7 +253,7 @@ PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007"
 
 
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
-[ -f "/home/evad/.ghcup/env" ] && source "/home/evad/.ghcup/env" # ghcup-env
+[ -f "/home/$USER/.ghcup/env" ] && source "/home/$USER/.ghcup/env" # ghcup-env
 
 # history with time
 export HISTTIMEFORMAT="%c "
@@ -261,8 +261,8 @@ export HISTTIMEFORMAT="%c "
 
 # will have to changes this later 
 #Libaries and tools
-export kot=/home/evad/Desktop/kotlin/kt/toolK
-export PATH=$PATH:"/home/evad/Desktop/kotlin/kt/toolK"
+export kot=/home/$USER/Desktop/kotlin/kt/toolK
+export PATH=$PATH:"/home/$USER/Desktop/kotlin/kt/toolK"
 
 # pyenv 
 export PYENV_ROOT="$HOME/.pyenv"
@@ -272,14 +272,14 @@ eval "$(pyenv init -)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/evad/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/$USER/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/evad/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/evad/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/$USER/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/$USER/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/evad/miniconda3/bin:$PATH"
+        export PATH="/home/$USER/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -287,4 +287,4 @@ unset __conda_setup
 
 
 # >> go version manager
-[[ -s "/home/evad/.gvm/scripts/gvm" ]] && source "/home/evad/.gvm/scripts/gvm"
+[[ -s "/home/$USER/.gvm/scripts/gvm" ]] && source "/home/$USER/.gvm/scripts/gvm"
