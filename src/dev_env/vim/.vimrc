@@ -8,14 +8,6 @@ syntax on
 colorscheme darkblue
 set tabstop=4
 
-
-" vim-multiple-cursors
-call plug#begin()
-
-Plug 'terryma/vim-multiple-cursors'
-
-call plug#end()
-
 " Start NERDTree and leave cursor in it
 " autocmd VimEnter * NERDTree | wincmd p 
 
