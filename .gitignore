@@ -1,6 +1,10 @@
 #bunch of notes
 /ideas_
 _draft
+
+# tmux resurrect files
+src/dev_env/tmux/.tmux/resurrect/
+
 # vim temporary files
 *.swp
 
