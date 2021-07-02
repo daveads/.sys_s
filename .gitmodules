@@ -34,3 +34,9 @@
 [submodule "src/dev_env/tmux/.tmux/plugins/tmux-continuum"]
 	path = src/dev_env/tmux/.tmux/plugins/tmux-continuum
 	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "src/dev_env/tmux/.tmux/plugins/tmux-resurrect"]
+	path = src/dev_env/tmux/.tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule "src/dev_env/tmux/.tmux/plugins/tmux-sensible"]
+	path = src/dev_env/tmux/.tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git
