@@ -31,3 +31,6 @@
 [submodule "src/dev_env/tmux/.tmux/plugins/tpm"]
 	path = src/dev_env/tmux/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "src/dev_env/tmux/.tmux/plugins/tmux-continuum"]
+	path = src/dev_env/tmux/.tmux/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
