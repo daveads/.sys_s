@@ -1,6 +1,0 @@
-pane	0	0	:nvim	1	:*	0	:/home/evad	0	bash	:
-pane	0	0	:nvim	1	:*	1	:/home/evad/Appimage/Telegram/tel/opendbc/can	1	nvim	:nvim dbc.py
-pane	0	1	:bash	0	:!-	0	:/home/evad	1	bash	:
-window	0	0	1	:*	1b79,112x101,0,0{29x101,0,0,0,82x101,30,0,1}
-window	0	1	0	:!-	bf7f,144x35,0,0,2
-state	0	

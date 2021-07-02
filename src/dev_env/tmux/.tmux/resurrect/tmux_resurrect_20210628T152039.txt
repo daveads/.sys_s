@@ -1,4 +1,0 @@
-pane	0	0	:htop	1	:*	0	:/home/evad/Downloads/Stupid\ Vld/golang	1	htop	:htop
-pane	0	0	:htop	1	:*	1	:/home/evad/Downloads/api_checking/exam	0	bash	:
-window	0	0	1	:*	0193,144x35,0,0{66x35,0,0,0,77x35,67,0,1}
-state	0	
