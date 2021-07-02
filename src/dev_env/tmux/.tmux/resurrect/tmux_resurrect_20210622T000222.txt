@@ -1,4 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/run/user/1000/gvfs/mtp:host=TECNO_MOBILE_LIMITED_TECNO_SPARK_5_Pro_06039330CC004110/Internal\ shared storage/Download	1	bash	:
-pane	0	0	:bash	1	:*	1	:/home/evad/Desktop/emulutor/chip8	0	bash	:
-window	0	0	1	:*	ddd2,144x35,0,0{72x35,0,0,0,71x35,73,0,1}
-state	0	

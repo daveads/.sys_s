@@ -1,9 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/evad/Downloads/api_checking	0	nvim	:nvim api.py
-pane	0	0	:bash	1	:*	1	:/home/evad/Downloads/api_checking	0	python	:/home/evad/.pyenv/versions/3.7.7/bin/python api.py
-pane	0	0	:bash	1	:*	2	:/home/evad/Downloads/api_checking	1	bash	:-bash
-/home/evad/.pyenv/versions/3.7.7/bin/python
-pane	0	1	:./Postman	0	:-	0	:/home/evad	0	bash	:
-pane	0	1	:./Postman	0	:-	1	:/home/evad/Downloads/Postman-linux-x64-8.5.1/Postman	1	./Postman	:./Postman
-window	0	0	1	:*	62a7,144x35,0,0{72x35,0,0,0,71x35,73,0[71x17,73,0,1,71x17,73,18,6]}
-window	0	1	0	:-	dddb,144x35,0,0{72x35,0,0,2,71x35,73,0,3}
-state	0	

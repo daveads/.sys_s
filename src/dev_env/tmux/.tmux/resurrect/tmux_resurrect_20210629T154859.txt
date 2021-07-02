@@ -1,5 +1,0 @@
-pane	0	1	:bash	1	:*	0	:/home/evad/Downloads/Stupid\ Vld/golang/osas	1	bash	:/home/evad/.pyenv/versions/3.7.7/bin/python main.py
-/bin/bash /home/evad/Desktop/_notes/src/note
-pane	0	1	:bash	1	:*	1	:/home/evad/Downloads/api_checking/exam/website	0	bash	:sqlite3 database.db
-window	0	1	1	:*	ddd4,144x35,0,0{72x35,0,0,0,71x35,73,0,5}
-state	0	

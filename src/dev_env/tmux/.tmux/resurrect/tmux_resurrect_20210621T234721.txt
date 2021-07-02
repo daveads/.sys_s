@@ -1,4 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/evad	1	bash	:
-pane	0	0	:bash	1	:*	1	:/home/evad/Desktop/emulutor/chip8	0	bash	:
-window	0	0	1	:*	ddd2,144x35,0,0{72x35,0,0,0,71x35,73,0,1}
-state	0	

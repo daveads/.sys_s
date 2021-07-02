@@ -1,5 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/evad/Desktop/Tylease/tyCompany/tylease1/tylease	1	bash	:
-pane	0	0	:bash	1	:*	1	:/home/evad/Downloads/api_checking/exam/website	0	bash	:
-pane	0	0	:bash	1	:*	2	:/home/evad/Desktop/Tylease/tyCompany/tylease/tyapp/controller	0	bash	:
-window	0	0	1	:*	62a6,144x35,0,0{72x35,0,0,0,71x35,73,0[71x17,73,0,1,71x17,73,18,2]}
-state	0	
