@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# .vimrc
-
-ln -sf ~/.sys_s/src/dev_env/vim/.vimrc ~/.vimrc
-
-# .vim dir
-ln -sf ~/.sys_s/src/dev_env/vim/.vim ~/.vim

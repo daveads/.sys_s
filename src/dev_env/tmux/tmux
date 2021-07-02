@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#symbolic link for bash_setup
+
+#.tmux.conf
+if [ ! -L "$HOME/.tmux.conf" ] && [ ! -L "$HOME/.tmux" ]; then
+
+	echo "#################################################################"
+	echo "ln for tmux config and plugin"
+	ln  -sf  ~/.sys_s/src/dev_env/tmux/.tmux.conf  $HOME/.tmux.conf
+	ln -sf ~/.sys_s/src/dev_env/tmux/.tmux  ~/.tmux
+	echo "Done......!!!"
+	echo "#################################################################"
+fi
+
+

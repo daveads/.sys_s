@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# .vimrc
+
+if [ ! -L "$HOME/.vimrc" ] && [ ! -L "$HOME/.vim" ]; then 
+
+	#vim links created 
+	echo "vim ln created.........!!!!" 
+	ln -sf ~/.sys_s/src/dev_env/vim/.vimrc ~/.vimrc
+
+	ln -sf ~/.sys_s/src/dev_env/vim/.vim ~/.vim
+
+fi
