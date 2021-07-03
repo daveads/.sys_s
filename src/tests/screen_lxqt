@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+## No decision yet
+
+#for increasing and reducing brigthness in lxqt
+#decreases
+#pkexec lxqt-backlight_backend --dec
+
+#increases screen
+#pkexec lxqt-backlight_backend --inc
+
+
+# /sys
+# /sys/class/blacklight/intel_backlight
+
+

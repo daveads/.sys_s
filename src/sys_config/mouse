@@ -18,6 +18,12 @@
 
 # errors
 
-#xinput set-prop 11 310 1 
-#xinput --disable 9 #disables the multi touch
+
+
+#This enable mouse clicks
+#xinput set-prop 11 310 1
+
+
+# disable multi-touch
+#xinput --disable 9
 
