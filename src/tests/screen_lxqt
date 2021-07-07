@@ -13,4 +13,5 @@
 # /sys
 # /sys/class/blacklight/intel_backlight
 
-
+# prefered brightness
+# 751

@@ -290,3 +290,7 @@ unset __conda_setup
 [[ -s "/home/$USER/.gvm/scripts/gvm" ]] && source "/home/$USER/.gvm/scripts/gvm"
 
 [[ -s "/home/daveads/.gvm/scripts/gvm" ]] && source "/home/daveads/.gvm/scripts/gvm"
+
+# >> go bin 
+#export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/$USER/go/bin
