@@ -100,3 +100,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/vim-surround"]
 	path = src/dev_env/vim/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-sayonara"]
+	path = src/dev_env/vim/.vim/bundle/vim-sayonara
+	url = https://github.com/mhinz/vim-sayonara.git
