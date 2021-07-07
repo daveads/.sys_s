@@ -40,3 +40,66 @@
 [submodule "src/dev_env/tmux/.tmux/plugins/tmux-sensible"]
 	path = src/dev_env/tmux/.tmux/plugins/tmux-sensible
 	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-gitgutter"]
+	path = src/dev_env/vim/.vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-endwise"]
+	path = src/dev_env/vim/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "src/dev_env/vim/.vim/bundle/ctrlp.vim"]
+	path = src/dev_env/vim/.vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "src/dev_env/vim/.vim/bundle/nerdtree-git-plugin"]
+	path = src/dev_env/vim/.vim/bundle/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "src/dev_env/vim/.vim/bundle/rust.vim"]
+	path = src/dev_env/vim/.vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-jsx-pretty"]
+	path = src/dev_env/vim/.vim/bundle/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
+[submodule "src/dev_env/vim/.vim/bundle/indentLine"]
+	path = src/dev_env/vim/.vim/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-colors-solarized"]
+	path = src/dev_env/vim/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-go"]
+	path = src/dev_env/vim/.vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-cfmt"]
+	path = src/dev_env/vim/.vim/bundle/vim-cfmt
+	url = https://github.com/crosbymichael/vim-cfmt.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-toml"]
+	path = src/dev_env/vim/.vim/bundle/vim-toml
+	url = https://github.com/cespare/vim-toml.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-better-whitespace"]
+	path = src/dev_env/vim/.vim/bundle/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-sayonara"]
+	path = src/dev_env/vim/.vim/bundle/vim-sayonara
+	url = https://github.com/mhinz/vim-sayonara.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-python-pep8-indent"]
+	path = src/dev_env/vim/.vim/bundle/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-linux-coding-style"]
+	path = src/dev_env/vim/.vim/bundle/vim-linux-coding-style
+	url = https://github.com/vivien/vim-linux-coding-style.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-systemd-syntax"]
+	path = src/dev_env/vim/.vim/bundle/vim-systemd-syntax
+	url = https://github.com/wgwoods/vim-systemd-syntax.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-terraform"]
+	path = src/dev_env/vim/.vim/bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-git"]
+	path = src/dev_env/vim/.vim/bundle/vim-git
+	url = https://github.com/tpope/vim-git.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-markdown"]
+	path = src/dev_env/vim/.vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-protobuf"]
+	path = src/dev_env/vim/.vim/bundle/vim-protobuf
+	url = https://github.com/uarun/vim-protobuf.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-surround"]
+	path = src/dev_env/vim/.vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
