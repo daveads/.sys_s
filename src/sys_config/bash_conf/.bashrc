@@ -156,8 +156,8 @@ export PATH=$PATH:/home/$USER/ide/eclipse
 # Dart programming lang bin
 
 #dart programming language 
-export dart_HOME=/usr/local/dart-sdk
-export PATH=${PATH}:${dart_HOME}/bin
+#export dart_HOME=/usr/local/dart-sdk
+#export PATH=${PATH}:${dart_HOME}/bin
 
 # Flutter bin
 export flutter_HOME=/usr/local/flutter
