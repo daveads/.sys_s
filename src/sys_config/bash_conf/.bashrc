@@ -186,12 +186,13 @@ case $- in
 esac
 
 # Path to the bash it configuration
-export BASH_IT="/home/$USER/.bash_it"
+#export BASH_IT="/home/$USER/.bash_it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
 # location /.bash_it/themes/
-export BASH_IT_THEME='bobby'
+
+#export BASH_IT_THEME='bobby'
 
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
@@ -242,7 +243,7 @@ export SCM_CHECK=true
 # export BASH_IT_RELOAD_LEGACY=1
 
 # Load Bash It
-source "$BASH_IT"/bash_it.sh
+#source "$BASH_IT"/bash_it.sh
 
 
 #go-lang 
@@ -294,3 +295,10 @@ unset __conda_setup
 # >> go bin 
 #export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/$USER/go/bin
+
+
+#Starship
+#Starship – Cross-shell prompt 
+eval "$(starship init bash)"
+export STARSHIP_CONFIG="$HOME/.starship/starship.toml"
+export STARSHIP_CACHE=~/.starship/cache

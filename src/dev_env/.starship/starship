@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# .starship
+
+if [ ! -L "$HOME/.starship/starship.toml" ]; then 
+
+	#.starship config 
+
+	ln -sf ~/.sys_s/src/dev_env/.starship/starship.toml $HOME/.starship/starship.toml
+
+fi
