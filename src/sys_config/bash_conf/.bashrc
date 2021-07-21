@@ -155,7 +155,7 @@ export PATH=$PATH:/home/$USER/ide/eclipse
 
 # Dart programming lang bin
 
-#dart programming language 
+#dart programming language  //flutter comes with one 
 #export dart_HOME=/usr/local/dart-sdk
 #export PATH=${PATH}:${dart_HOME}/bin
 
@@ -185,18 +185,6 @@ case $- in
     *) return;;
 esac
 
-# Path to the bash it configuration
-#export BASH_IT="/home/$USER/.bash_it"
-
-# Lock and Load a custom theme file.
-# Leave empty to disable theming.
-# location /.bash_it/themes/
-
-#export BASH_IT_THEME='bobby'
-
-# (Advanced): Change this to the name of your remote repo if you
-# cloned bash-it with a remote other than origin such as `bash-it`.
-# export BASH_IT_REMOTE='bash-it'
 
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.domain.com'
@@ -238,12 +226,6 @@ export SCM_CHECK=true
 # (Advanced): Uncomment this to make Bash-it reload itself automatically
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
-
-# Uncomment this to make Bash-it create alias reload.
-# export BASH_IT_RELOAD_LEGACY=1
-
-# Load Bash It
-#source "$BASH_IT"/bash_it.sh
 
 
 #go-lang 
