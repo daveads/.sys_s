@@ -25,9 +25,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/vimwiki"]
 	path = src/dev_env/vim/.vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
-[submodule "src/dev_env/vim/.vim/bundle/coc.nvim"]
-	path = src/dev_env/vim/.vim/bundle/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
 [submodule "src/dev_env/tmux/.tmux/plugins/tpm"]
 	path = src/dev_env/tmux/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
@@ -100,3 +97,9 @@
 [submodule "src/dev_env/vim/.vim/bundle/vim-surround"]
 	path = src/dev_env/vim/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "src/dev_env/vim/.vim/bundle/goyo.vim"]
+	path = src/dev_env/vim/.vim/bundle/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "src/dev_env/vim/.vim/bundle/markdown-preview.nvim"]
+	path = src/dev_env/vim/.vim/bundle/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
