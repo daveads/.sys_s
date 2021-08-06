@@ -7,6 +7,11 @@ set number
 syntax on
 colorscheme darkblue
 set tabstop=4
+set spell
+
+"key remaps
+map <C-g> :Gogo<CR>
+
 
 " Start NERDTree and leave cursor in it
 " autocmd VimEnter * NERDTree | wincmd p 
@@ -26,4 +31,6 @@ map <S-Left>  :tabp<CR>
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
+
+
 
