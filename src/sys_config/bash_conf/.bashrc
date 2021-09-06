@@ -284,3 +284,4 @@ export PATH=$PATH:/home/$USER/go/bin
 eval "$(starship init bash)"
 export STARSHIP_CONFIG="$HOME/.starship/starship.toml"
 export STARSHIP_CACHE=~/.starship/cache
+. "$HOME/.cargo/env"
