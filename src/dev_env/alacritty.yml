@@ -586,6 +586,7 @@ shell:
 key_bindings:
    - { key: V,         mods: Control,             action: Paste          }
    - { key: C,         mods: Control,             action: Copy           }
+   - { key: C,         mods: Control|Shift,       chars: "\x03"          }
   #- { key: L,         mods: Control,             action: ClearLogNotice }
   #- { key: L,         mods: Control, mode: ~Vi,  chars: "\x0c"          }
   #- { key: PageUp,    mods: Shift,   mode: ~Alt, action: ScrollPageUp,  }
