@@ -103,3 +103,27 @@
 [submodule "src/dev_env/vim/.vim/bundle/markdown-preview.nvim"]
 	path = src/dev_env/vim/.vim/bundle/markdown-preview.nvim
 	url = https://github.com/iamcco/markdown-preview.nvim.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-tmux-navigator"]
+	path = src/dev_env/vim/.vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-cpp-enhanced-highlight"]
+	path = src/dev_env/vim/.vim/bundle/vim-cpp-enhanced-highlight
+	url = git@github.com:octol/vim-cpp-enhanced-highlight.git
+[submodule "src/dev_env/vim/.vim/bundle/vimspector"]
+	path = src/dev_env/vim/.vim/bundle/vimspector
+	url = git@github.com:puremourning/vimspector.git
+[submodule "src/dev_env/vim/.vim/bundle/syntastic"]
+	path = src/dev_env/vim/.vim/bundle/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-ctrlspace"]
+	path = src/dev_env/vim/.vim/bundle/vim-ctrlspace
+	url = git@github.com:vim-ctrlspace/vim-ctrlspace.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-http"]
+	path = src/dev_env/vim/.vim/bundle/vim-http
+	url = git@github.com:nicwest/vim-http.git
+[submodule "src/dev_env/vim/.vim/bundle/vim-commentary"]
+	path = src/dev_env/vim/.vim/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "src/dev_env/vim/.vim/bundle/clang_complete"]
+	path = src/dev_env/vim/.vim/bundle/clang_complete
+	url = git@github.com:xavierd/clang_complete.git
