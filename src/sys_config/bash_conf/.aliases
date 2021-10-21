@@ -35,3 +35,14 @@ alias c='clear'
 
 # Terminal emulator
 alias T='sudo update-alternatives --config x-terminal-emulator'
+
+# current python --version
+alias p='python --version'
+
+# LOCAL DOCS
+
+# http://127.0.0.1:8008
+alias fa='python ./scripts/docs.py live'
+
+# RE
+alias re='yarn dev'
