@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ln -sf ~/.sys_s/src/dev_env/.gitconfig ~
