@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # This needs a rewrite
 
 start(){
@@ -7,16 +8,13 @@ start(){
 
 
 stop(){
-echo stoping apache2....
-sudo service apache2 stop
-echo stopped
+
+#echo stoping apache2....
+#sudo service apache2 stop
+#echo stopped
 
 echo stoping mysql....
 sudo service mysql stop
-echo stopped
-
-echo stoping bluetooth....
-sudo service bluetooth stop
 echo stopped
 
 echo stoping mongodb....
@@ -26,6 +24,10 @@ echo stopped
 echo stoping redis-server....
 sudo service redis-server stop
 echo stopped
+
+# Bluetooth
+sudo service bluetooth stop
+echo bluetooth stopped
 
 echo stoping nginx....
 sudo service nginx stop
