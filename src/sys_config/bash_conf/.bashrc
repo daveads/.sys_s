@@ -135,7 +135,7 @@ export PATH="$HOME/gems/bin:$PATH"
 
 
 #Java bin
-export JAVA_HOME=/usr/local/java/jdk1.8.0_291
+export JAVA_HOME=/home/evad/sdkman-canditate/candidates/java/11.0.11.j9-adpt
 export PATH=${PATH}:${JAVA_HOME}/bin
 
 
