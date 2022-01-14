@@ -120,7 +120,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -128,16 +127,13 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export SDKMAN_DIR="/home/$USER/.sdkman"
 [[ -s "/home/$USER/.sdkman/bin/sdkman-init.sh" ]] && source "/home/$USER/.sdkman/bin/sdkman-init.sh"
 
-
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 
-
 #Java bin
 export JAVA_HOME=/home/evad/sdkman-canditate/candidates/java/11.0.11.j9-adpt
 export PATH=${PATH}:${JAVA_HOME}/bin
-
 
 # Android sdk  
 if [ -f ~/.sys_s/src/dev_env/android_env_setup ]; then
@@ -148,7 +144,6 @@ fi
 if [ -f ~/.sys_s/src/sys_config/mouse ]; then
 	. ~/.sys_s/src/sys_config/mouse
 fi
-
 
 #Android studio IDE Bin
 export PATH=$PATH:/home/$USER/ide/eclipse
@@ -163,7 +158,6 @@ export PATH=$PATH:/home/$USER/ide/eclipse
 export flutter_HOME=/usr/local/flutter
 export PATH=${PATH}:${flutter_HOME}/bin
 
-
 #
 # MAJOR TOOLS AND automating scripts
 #
@@ -174,7 +168,6 @@ export PATH=$PATH:"/home/$USER/.sys_s/src/ba3"
 export PATH=$PATH:"/home/$USER/.sys_s/src/py_s"
 export PATH=$PATH:"/home/$USER/.sys_s/src/sys_config"
 
-
 ## NOTES
 export NOTES=/home/$USER/Desktop/_notes
 export PATH=$PATH:"/home/$USER/Desktop/_notes/src"
@@ -184,7 +177,6 @@ case $- in
   *i*) ;;
     *) return;;
 esac
-
 
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.domain.com'
@@ -227,20 +219,17 @@ export SCM_CHECK=true
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 
-
 #go-lang 
 export PATH=$PATH:/usr/local/go/bin
 
 # set PROMPT_COMMAND
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
 
-
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 [ -f "/home/$USER/.ghcup/env" ] && source "/home/$USER/.ghcup/env" # ghcup-env
 
 # history with time
 export HISTTIMEFORMAT="%c "
-
 
 # will have to changes this later 
 #Libaries and tools
@@ -251,7 +240,6 @@ export PATH=$PATH:"/home/$USER/Desktop/kotlin/kt/toolK"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -268,7 +256,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
 # >> go version manager
 [[ -s "/home/$USER/.gvm/scripts/gvm" ]] && source "/home/$USER/.gvm/scripts/gvm"
 
@@ -278,10 +265,13 @@ unset __conda_setup
 #export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/$USER/go/bin
 
-
 #Starship
 #Starship – Cross-shell prompt 
 eval "$(starship init bash)"
 export STARSHIP_CONFIG="$HOME/.starship/starship.toml"
 export STARSHIP_CACHE=~/.starship/cache
 . "$HOME/.cargo/env"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+#source ~/.rvm/scripts/rvm

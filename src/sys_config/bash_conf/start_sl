@@ -3,11 +3,11 @@
 #symbolic link for bash_setup
 
 # .bashrc
-ln -sf ~/.sys_s/src/sys_config/bash_conf/.bashrc ~/.bashrc
+ln -s ~/.sys_s/src/sys_config/bash_conf/.bashrc ~/.bashrc
 
 
 # .bash_profile
-ln -sf ~/.sys_s/src/sys_config/bash_conf/.bash_profile ~/.bash_profile
+ln -s ~/.sys_s/src/sys_config/bash_conf/.bash_profile ~/.bash_profile
 
-ln -sf ~/.sys_s/src/sys_config/bash_conf/.profile ~/.profile
+ln -s ~/.sys_s/src/sys_config/bash_conf/.profile ~/.profile
 # add bash alias <<<

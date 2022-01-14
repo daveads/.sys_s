@@ -10,6 +10,9 @@ disabled = true
 [nodejs]
 disabled = true
 
+[ruby]
+disabled = true
+
 [username]
 style_user = "bold blue"
 style_root = "bold yellow"
