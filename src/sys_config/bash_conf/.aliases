@@ -28,6 +28,7 @@ alias upg='sudo apt update && sudo apt upgrade'
 
 alias g='figlet "GOD MODE"'
 alias G='figlet "GOD MODE ACTIVATED"'
+alias w='figlet "Daveads"'
 
 alias c='clear'
 
