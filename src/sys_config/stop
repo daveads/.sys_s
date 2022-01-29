@@ -14,34 +14,44 @@ stop(){
 #echo stopped
 
 echo stoping mysql....
-sudo service mysql stop
+sudo systemctl stop mysql 
 echo stopped
+
+
 
 echo stoping mongodb....
-sudo service mongodb stop
+sudo systemctl stop mongodb 
 echo stopped
+
 
 echo stoping redis-server....
-sudo service redis-server stop
+sudo systemctl stop redis-server 
 echo stopped
+
 
 # Bluetooth
-sudo service bluetooth stop
+echo stoping bluetooth devices
+sudo systemctl stop bluetooth
 echo bluetooth stopped
 
+
 echo stoping nginx....
-sudo service nginx stop
-echo stopped
+sudo systemctl stop nginx
+echo nginx stopped
 
 echo stoping postgresql....
-sudo service postgresql stop
-echo stopped
+sudo systemctl stop postgresql
+echo postgresql stopped
 
 notify-send "Done!!"
 
+# Docker
+sudo systemctl stop docker.service
+sudo systemctl stop docker.socket
 }
 
 
-case $1 in 
+
+case $1 in
 	start|stop) "$1" ;;
 esac

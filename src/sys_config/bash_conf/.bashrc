@@ -132,7 +132,10 @@ export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 
 #Java bin
-export JAVA_HOME=/home/evad/sdkman-canditate/candidates/java/11.0.11.j9-adpt
+
+#
+#ln -s ~/.sdkman/  $HOME/sdkman
+export JAVA_HOME=~/sdkman/candidates/java/11.0.11.j9-adpt
 export PATH=${PATH}:${JAVA_HOME}/bin
 
 # Android sdk  
@@ -275,3 +278,14 @@ export STARSHIP_CACHE=~/.starship/cache
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 #source ~/.rvm/scripts/rvm
+
+
+
+# eval $(keychain --eval github)
+
+
+# file-system/partition
+export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+
+# chrome
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
