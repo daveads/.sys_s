@@ -16,7 +16,7 @@ disabled = true
 [username]
 style_user = "bold blue"
 style_root = "bold yellow"
-format = "[GOD MODE](bold red): [$user]($style) "
+format = "[Cluzzy Mode](bold red): [$user]($style) "
 disabled = false
 show_always = true
 
