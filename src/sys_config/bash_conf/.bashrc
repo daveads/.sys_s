@@ -172,8 +172,8 @@ export PATH=$PATH:"/home/$USER/.sys_s/src/py_s"
 export PATH=$PATH:"/home/$USER/.sys_s/src/sys_config"
 
 ## NOTES
-export NOTES=/home/$USER/Desktop/_notes
-export PATH=$PATH:"/home/$USER/Desktop/_notes/src"
+export NOTES=/home/$USER/Desktop/notes
+export PATH=$PATH:"/home/$USER/Desktop/notes/scripts"
 
 # If not running interactively, don't do anything
 case $- in
@@ -289,3 +289,4 @@ export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # chrome
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+export EDITOR="nvim"
