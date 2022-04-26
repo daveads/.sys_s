@@ -197,3 +197,13 @@ bar {
 
 
 exec_always --no-startup-id feh --bg-scale /home/$USER/.systempic/evads.png
+
+# Moving workspaces between screens
+bindsym $mod+p move workspace to output right 
+
+# alacrity on startup
+exec_always --no-startup-id  exec alacritty
+
+
+# automatically setting up vertical screen
+exec_always --no-startup-id xrandr --output HDMI1 --rotate left --auto --right-of eDP1
