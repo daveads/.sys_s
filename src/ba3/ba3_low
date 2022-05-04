@@ -4,13 +4,12 @@
 
 hib()  {
 
-exp_ba3=23
+exp_ba3=25
 ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
 
 if [ $ba3_level -eq $exp_ba3 ]; then
 
-	sudo pm-hibernate
-	
+	sudo systemctl hibernate	
 fi
  }
 
