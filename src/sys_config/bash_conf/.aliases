@@ -47,3 +47,7 @@ alias fa='python ./scripts/docs.py live'
 
 # RE
 alias re='yarn dev'
+
+
+# site src
+alias daveads='cd /home/$USER/Desktop/daveads.github.io'
