@@ -32,5 +32,7 @@ map <S-Left>  :tabp<CR>
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * silent NERDTreeMirror
 
+autocmd vimenter * ++nested colorscheme gruvbox
 
-
+" vimspector
+let g:vimspector_enable_mappings = 'HUMAN'

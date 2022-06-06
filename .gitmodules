@@ -127,3 +127,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/clang_complete"]
 	path = src/dev_env/vim/.vim/bundle/clang_complete
 	url = git@github.com:xavierd/clang_complete.git
+[submodule "src/dev_env/vim/.vim/bundle/gruvbox"]
+	path = src/dev_env/vim/.vim/bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
