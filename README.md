@@ -6,10 +6,7 @@ would love to just rip off someone else's open source dotfiles or .vim but that'
 
 feel free to dig through you might find some thing that interest you......
 
-
-
-## plugin use @ vim 
-
+**plugin mangager** [vim-pathogen](https://github.com/tpope/vim-pathogen)
 
 
 ## plugin for bash && zsh
