@@ -50,4 +50,4 @@ alias re='yarn dev'
 
 
 # site src
-alias daveads='cd /home/$USER/Desktop/daveads.github.io'
+#alias daveads='cd /home/$USER/Desktop/daveads.github.io'

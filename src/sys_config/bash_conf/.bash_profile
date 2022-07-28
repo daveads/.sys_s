@@ -22,3 +22,7 @@ eval "$(pyenv init -)"
 
 
 . "$HOME/.cargo/env"
+export DENO_INSTALL="/home/daveads/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export DVM_DIR="/home/daveads/.dvm"
+export PATH="$DVM_DIR/bin:$PATH"
