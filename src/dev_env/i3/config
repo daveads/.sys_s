@@ -211,5 +211,5 @@ exec_always --no-startup-id xrandr --output HDMI1 --rotate left --auto --right-o
 
 # SynPS/2 Synaptics TouchPad
 # Enabling.....
-exec_always --no-startup-id xinput set-prop 11 325 1
+exec_always --no-startup-id xinput set-prop 11 317 1
 

@@ -48,6 +48,11 @@ alias fa='python ./scripts/docs.py live'
 # RE
 alias re='yarn dev'
 
+# suspend 
+alias s='systemctl suspend'
+
+# hibernate
+alias h5='systemctl hibernate'
 
 # site src
 #alias daveads='cd /home/$USER/Desktop/daveads.github.io'

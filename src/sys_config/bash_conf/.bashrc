@@ -294,3 +294,7 @@ export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export EDITOR="nvim"
 
 RUST_BACKTRACE=1
+
+
+# pipenv
+PIPENV_IGNORE_VIRTUALENVS=1
