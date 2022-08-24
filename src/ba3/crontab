@@ -1,0 +1,6 @@
+*/1 * * * * root /home/daveads/.sys_s/src/ba3/ba3_low
+#01 * * * * root /home/daveads/.sys_s/src/ba3/charge
+#02 * * * * root /home/daveads/.sys_s/src/ba3/ba3_full_charg
+
+#01 * * * * root /bin/espeak "working"
+# min hours day month weekday **user  command

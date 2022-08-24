@@ -133,3 +133,6 @@
 [submodule "src/dev_env/vim/.vim/bundle/zig.vim"]
 	path = src/dev_env/vim/.vim/bundle/zig.vim
 	url = git@github.com:ziglang/zig.vim.git
+[submodule "src/dev_env/vim/.vim/bundle/julia-vim"]
+	path = src/dev_env/vim/.vim/bundle/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git

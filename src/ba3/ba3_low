@@ -4,12 +4,19 @@
 
 hib()  {
 
-exp_ba3=25
+exp_ba3=15
 ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
+ba3_status=$(cat /sys/class/power_supply/BAT1/status)
 
-if [ $ba3_level -eq $exp_ba3 ]; then
+# equal to or less than "-le"
+if [ $ba3_level -le $exp_ba3 ] && [ $ba3_status == "Discharging" ]; then
 
-	sudo systemctl hibernate	
+	systemctl hibernate
+	echo "ba3 low"
+
+else
+  echo "battery level is not $exp_ba3"
+
 fi
  }
 
