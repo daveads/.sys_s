@@ -9,9 +9,16 @@ ba3_level=$(cat /sys/class/power_supply/BAT1/capacity)
 ba3_status=$(cat /sys/class/power_supply/BAT1/status)
 
 
-if [ $ba3_level -ge  97 ] && [ $ba3_status == "Charging" ]; then
-	
-	notify-send "remove charger"
-	espeak "remove charger"
+while [ $ba3_level -ge  93 ]  && [ "$ba3_status" = "Charging" ];
+do
+		echo 3024 | sudo tee /sys/class/backlight/intel_backlight/brightness > /dev/null
+		sleep 2
+		echo 400 | sudo tee /sys/class/backlight/intel_backlight/brightness > /dev/null
+		sleep 2
 
-fi
+		if [[ $ba3_level -ge 94 ]]; then
+				break
+		fi
+done
+
+echo 500 | sudo tee /sys/class/backlight/intel_backlight/brightness > /dev/null
