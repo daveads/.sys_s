@@ -207,9 +207,10 @@ exec_always --no-startup-id  exec alacritty
 
 # Automatically setting up vertical screen
 exec_always --no-startup-id xrandr --output HDMI1 --rotate left --auto --right-of eDP1
+#exec_always --no-startup-id xrandr --output HDMI1 --rotate normal --auto --left-of eDP1
 
 
 # SynPS/2 Synaptics TouchPad
 # Enabling.....
-exec_always --no-startup-id xinput set-prop 11 317 1
+#exec_always --no-startup-id xinput set-prop 11 317 1
 
