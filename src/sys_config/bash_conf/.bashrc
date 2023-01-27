@@ -221,8 +221,6 @@ export SCM_CHECK=true
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 
-#go-lang 
-export PATH=$PATH:/usr/local/go/bin
 
 # set PROMPT_COMMAND
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
@@ -263,9 +261,15 @@ unset __conda_setup
 
 [[ -s "/home/daveads/.gvm/scripts/gvm" ]] && source "/home/daveads/.gvm/scripts/gvm"
 
+## GOLANG ##
 # >> go bin 
-#export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/$USER/go/bin
+#export PATH=$PATH:/home/$USER/go/bin
+#export GOROOT="/home/daveads/.gvm/gos/go1.19.2/bin"
+#export GOROOT=$HOME/.gvm/gos/go.19.2
+#export PATH=$PATH:$GOROOT/bin
+export PATH="$PATH:$(go env GOPATH)/bin"
+export GOPATH=$HOME/go
+export GO111MODULE=on
 
 #Starship
 #Starship – Cross-shell prompt 
@@ -298,3 +302,10 @@ RUST_BACKTRACE=1
 
 # pipenv
 PIPENV_IGNORE_VIRTUALENVS=1
+
+# screen multi-tourch
+xinput disable 'G2Touch Multi-Touch by G2TSP' #xinput set-prop 9 185 0
+
+
+# ruby shits
+GEM_HOME="/home/daveads/gems"

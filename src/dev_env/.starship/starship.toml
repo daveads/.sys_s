@@ -16,7 +16,7 @@ disabled = true
 [username]
 style_user = "bold blue"
 style_root = "bold yellow"
-format = "[Cluzzy Mode](bold red): [$user]($style) "
+format = "[Modeless](bold red): [$user]($style) "
 disabled = false
 show_always = true
 

@@ -1,0 +1,2 @@
+# disable mutltouch
+xinput set-prop 9 185 0

@@ -207,6 +207,8 @@ exec_always --no-startup-id  exec alacritty
 
 # Automatically setting up vertical screen
 exec_always --no-startup-id xrandr --output HDMI1 --rotate left --auto --right-of eDP1
+
+# horizontal
 #exec_always --no-startup-id xrandr --output HDMI1 --rotate normal --auto --left-of eDP1
 
 
