@@ -221,7 +221,6 @@ export SCM_CHECK=true
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 
-
 # set PROMPT_COMMAND
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
 
@@ -241,35 +240,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/daveads/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/daveads/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/daveads/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/daveads/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# >> go version manager
-[[ -s "/home/$USER/.gvm/scripts/gvm" ]] && source "/home/$USER/.gvm/scripts/gvm"
-
-[[ -s "/home/daveads/.gvm/scripts/gvm" ]] && source "/home/daveads/.gvm/scripts/gvm"
-
-## GOLANG ##
-# >> go bin 
-#export PATH=$PATH:/home/$USER/go/bin
-#export GOROOT="/home/daveads/.gvm/gos/go1.19.2/bin"
-#export GOROOT=$HOME/.gvm/gos/go.19.2
-#export PATH=$PATH:$GOROOT/bin
-export PATH="$PATH:$(go env GOPATH)/bin"
-export GOPATH=$HOME/go
-export GO111MODULE=on
 
 #Starship
 #Starship – Cross-shell prompt 
@@ -280,12 +250,8 @@ export STARSHIP_CACHE=~/.starship/cache
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-#source ~/.rvm/scripts/rvm
-
-
 
 # eval $(keychain --eval github)
-
 
 # file-system/partition
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
@@ -299,13 +265,51 @@ export EDITOR="nvim"
 
 RUST_BACKTRACE=1
 
-
 # pipenv
 PIPENV_IGNORE_VIRTUALENVS=1
 
 # screen multi-tourch
-xinput disable 'G2Touch Multi-Touch by G2TSP' #xinput set-prop 9 185 0
-
+#xinput disable 'G2Touch Multi-Touch by G2TSP' #xinput set-prop 9 185 0
 
 # ruby shits
 GEM_HOME="/home/daveads/gems"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+
+# GOLANG
+#            #export GOROOT=/usr/local/go/bin
+#module
+export GO111MODULE='on'
+# local go workspace
+export GOPATH="${HOME}/Golang"
+
+#go installs
+export GOBIN="${HOME}/Golang/bin"
+export PATH="$PATH:${GOBIN}"
+
+# golang runtime //goroot
+export PATH=$PATH:/usr/local/go/bin
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/daveads/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/daveads/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/home/daveads/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/daveads/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+if [ -f "/home/daveads/miniforge3/etc/profile.d/mamba.sh" ]; then
+    . "/home/daveads/miniforge3/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
+
+# unzip
+UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE
