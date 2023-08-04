@@ -84,6 +84,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -92,9 +93,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -104,6 +107,11 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 if [ -f ~/.sys_s/src/sys_config/bash_conf/.aliases ]; then
     . ~/.sys_s/src/sys_config/bash_conf/.aliases
 fi
+
+
+#Exports
+source /home/daveads/.sys_s/src/sys_config/bash_conf/languages_export.sh
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -277,23 +285,6 @@ GEM_HOME="/home/daveads/gems"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-
-# GOLANG
-#            #export GOROOT=/usr/local/go/bin
-#module
-export GO111MODULE='on'
-# local go workspace
-export GOPATH="${HOME}/Golang"
-
-#go installs
-export GOBIN="${HOME}/Golang/bin"
-export PATH="$PATH:${GOBIN}"
-
-# golang runtime //goroot
-export PATH=$PATH:/usr/local/go/bin
-
-#Zig
-export PATH=$PATH:/usr/local/zig
 
 
 # >>> conda initialize >>>
