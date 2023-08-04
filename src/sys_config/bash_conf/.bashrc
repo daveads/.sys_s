@@ -292,6 +292,10 @@ export PATH="$PATH:${GOBIN}"
 # golang runtime //goroot
 export PATH=$PATH:/usr/local/go/bin
 
+#Zig
+export PATH=$PATH:/usr/local/zig
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/daveads/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
