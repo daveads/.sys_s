@@ -24,3 +24,6 @@ export PATH="$PATH:${GOBIN}"
 #golang runtime //goroot
 export PATH=$PATH:/usr/local/go/bin
 
+#Mojo
+export MODULAR_HOME="$HOME/.modular"
+export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
