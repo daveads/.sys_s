@@ -40,3 +40,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(ssh-agent -s)"
 . "$HOME/.cargo/env"
+
+# >>> coursier install directory >>>
+export PATH="$PATH:/home/daveads/.local/share/coursier/bin"
+# <<< coursier install directory <<<

@@ -26,3 +26,7 @@ export DENO_INSTALL="/home/daveads/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export DVM_DIR="/home/daveads/.dvm"
 export PATH="$DVM_DIR/bin:$PATH"
+
+# >>> coursier install directory >>>
+export PATH="$PATH:/home/daveads/.local/share/coursier/bin"
+# <<< coursier install directory <<<

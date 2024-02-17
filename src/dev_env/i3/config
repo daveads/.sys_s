@@ -196,7 +196,7 @@ bar {
 
 
 
-exec_always --no-startup-id feh --bg-scale /home/$USER/.systempic/evads.png
+exec_always --no-startup-id feh --bg-scale /home/$USER/.sys_s/src/dev_env/i3/images/i3_image.png
 
 # Moving workspaces between screens
 bindsym $mod+p move workspace to output right 
