@@ -143,7 +143,7 @@ export PATH="$HOME/gems/bin:$PATH"
 
 #
 #ln -s ~/.sdkman/  $HOME/sdkman
-export JAVA_HOME=~/sdkman/candidates/java/11.0.11.j9-adpt
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk/
 export PATH=${PATH}:${JAVA_HOME}/bin
 
 # Android sdk  
@@ -308,3 +308,12 @@ fi
 
 # unzip
 UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE
+
+# waydroid 
+#export WAYLAND_DISPLAY="wayland-0"
+#export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+
+
+#graalvm
+export PATH=/usr/lib/jvm/java-17-graalvm/bin:$PATH
+eval "$(~/.rbenv/bin/rbenv init - bash)"

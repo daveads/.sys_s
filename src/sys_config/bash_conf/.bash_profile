@@ -30,3 +30,7 @@ export PATH="$DVM_DIR/bin:$PATH"
 # >>> coursier install directory >>>
 export PATH="$PATH:/home/daveads/.local/share/coursier/bin"
 # <<< coursier install directory <<<
+#
+
+#sway
+[ "$(tty)" = "/dev/tty1" ] && exec sway
