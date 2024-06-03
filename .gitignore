@@ -8,3 +8,5 @@ src/dev_env/tmux/.tmux/resurrect/
 # vim temporary files
 *.swp
 
+# vim-plug pluggins 
+src/dev_env/vim/.vim/bundle
