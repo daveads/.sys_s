@@ -1,13 +1,14 @@
 #!/bin/bash
 
-#symbolic link for bash_setup
+# Symbolic link for bash_setup
 
 # .bashrc
-ln -s ~/.sys_s/src/sys_config/bash_conf/.bashrc ~/.bashrc
-
+ln -sf ~/.sys_s/src/sys_config/bash_conf/.bashrc ~/.bashrc
 
 # .bash_profile
-ln -s ~/.sys_s/src/sys_config/bash_conf/.bash_profile ~/.bash_profile
+ln -sf ~/.sys_s/src/sys_config/bash_conf/.bash_profile ~/.bash_profile
 
-ln -s ~/.sys_s/src/sys_config/bash_conf/.profile ~/.profile
-# add bash alias <<<
+# .profile
+ln -sf ~/.sys_s/src/sys_config/bash_conf/.profile ~/.profile
+
+echo "### synced .bashrc .bash_profile .profile"

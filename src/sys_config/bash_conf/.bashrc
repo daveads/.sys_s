@@ -316,4 +316,5 @@ UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE
 
 #graalvm
 export PATH=/usr/lib/jvm/java-17-graalvm/bin:$PATH
-eval "$(~/.rbenv/bin/rbenv init - bash)"
+#eval "$(~/.rbenv/bin/rbenv init - bash)"
+#eval "$(zellij setup --generate-auto-start bash)"

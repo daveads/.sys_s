@@ -39,6 +39,7 @@ let g:vimspector_enable_mappings = 'HUMAN'
 
 
 
+" VIM-PLUG	
 " Switching from pathogen to vim-plug
 call plug#begin('~/.vim/bundle')
 
@@ -46,6 +47,9 @@ call plug#begin('~/.vim/bundle')
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'preservim/nerdtree'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'https://github.com/junegunn/fzf.vim.git'
 Plug 'https://github.com/terryma/vim-multiple-cursors.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
@@ -62,7 +66,8 @@ Plug 'https://github.com/rust-lang/rust.vim.git'
 Plug 'https://github.com/MaxMEllon/vim-jsx-pretty.git'
 Plug 'https://github.com/Yggdroot/indentLine.git'
 Plug 'https://github.com/altercation/vim-colors-solarized.git'
-Plug 'https://github.com/fatih/vim-go.git'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+"https://github.com/ray-x/go.nvim
 Plug 'https://github.com/crosbymichael/vim-cfmt.git'
 Plug 'https://github.com/cespare/vim-toml.git'
 Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
@@ -75,17 +80,24 @@ Plug 'https://github.com/plasticboy/vim-markdown.git'
 Plug 'https://github.com/uarun/vim-protobuf.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/junegunn/goyo.vim.git'
-Plug 'https://github.com/iamcco/markdown-preview.nvim.git'
-Plug 'git@github.com:christoomey/vim-tmux-navigator.git'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+"https://github.com/instant-markdown/vim-instant-markdown
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'git@github.com:octol/vim-cpp-enhanced-highlight.git'
 Plug 'git@github.com:puremourning/vimspector.git'
-Plug 'git@github.com:vim-syntastic/syntastic.git'
-Plug 'git@github.com:vim-ctrlspace/vim-ctrlspace.git'
+Plug 'dense-analysis/ale'
+Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'git@github.com:nicwest/vim-http.git'
 Plug 'git@github.com:tpope/vim-commentary.git'
 Plug 'git@github.com:xavierd/clang_complete.git'
 Plug 'https://github.com/morhetz/gruvbox.git'
-Plug 'git@github.com:ziglang/zig.vim.git'
-Plug 'https://github.com/JuliaEditorSupport/julia-vim.git'
+Plug 'ziglang/zig.vim'
+Plug 'JuliaEditorSupport/julia-vim'
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 
 call plug#end()
+
+" https://github.com/nvim-telekasten/telekasten.nvim
+" https://github.com/nvim-lualine/lualine.nvim
+" https://github.com/nvim-tree/nvim-web-devicons
+lua require("toggleterm").setup()
