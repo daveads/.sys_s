@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+# swaymsg -t get_inputs
+
+
+#swaymsg input "2:7:SynPS/2_Synaptics_TouchPad" events disabled
+#swaymsg input "10900:20489:G2Touch_Multi-Touch_by_G2TSP" events disabled
+
+
+# Function to print usage
+print_usage() {
+    echo "Usage: $0 [-d|-e] [mouse|touchscreen|all]"
+    echo "  -d: Disable the specified input device(s)"
+    echo "  -e: Enable the specified input device(s)"
+    echo "  Devices: mouse, touchscreen, all"
+}
+
+# Check if correct number of arguments is provided
+if [ $# -ne 2 ]; then
+    print_usage
+    exit 1
+fi
+
+# Parse arguments
+action=$1
+device=$2
+
+# Set device identifiers
+TOUCHSCREEN_ID="10900:20489:G2Touch_Multi-Touch_by_G2TSP"
+MOUSE_ID="2:7:SynPS/2_Synaptics_TouchPad"
+
+# Function to disable device
+disable_device() {
+    swaymsg input "$1" events disabled
+    echo "$2 disabled"
+}
+
+# Function to enable device
+enable_device() {
+    swaymsg input "$1" events enabled
+    echo "$2 enabled"
+}
+
+# Function to disable all devices
+disable_all() {
+    disable_device "$MOUSE_ID" "Mouse"
+    disable_device "$TOUCHSCREEN_ID" "Touchscreen"
+    echo "All devices disabled"
+}
+
+# Function to enable all devices
+enable_all() {
+    enable_device "$MOUSE_ID" "Mouse"
+    enable_device "$TOUCHSCREEN_ID" "Touchscreen"
+    echo "All devices enabled"
+}
+
+# Main logic
+case $action in
+    -d)
+        case $device in
+            mouse)
+                disable_device "$MOUSE_ID" "Mouse"
+                ;;
+            touchscreen)
+                disable_device "$TOUCHSCREEN_ID" "Touchscreen"
+                ;;
+            all)
+                disable_all
+                ;;
+            *)
+                echo "Invalid device specified"
+                print_usage
+                exit 1
+                ;;
+        esac
+        ;;
+    -e)
+        case $device in
+            mouse)
+                enable_device "$MOUSE_ID" "Mouse"
+                ;;
+            touchscreen)
+                enable_device "$TOUCHSCREEN_ID" "Touchscreen"
+                ;;
+            all)
+                enable_all
+                ;;
+            *)
+                echo "Invalid device specified"
+                print_usage
+                exit 1
+                ;;
+        esac
+        ;;
+    *)
+        echo "Invalid action specified"
+        print_usage
+        exit 1
+        ;;
+esac
