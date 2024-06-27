@@ -1,32 +1,14 @@
+-- Source .vimrc
 vim.cmd([[
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
 source ~/.vimrc
 ]])
 
+-- Require the separated configuration files
+require('config.options')
+require('config.nvim-tree')
+require('config.nvim-treesitter')
+require('config.nvim-cmp')
+require('config.lsp')
 
-
-
--- nvim-tree.lua config
--- disable netrw at the very start of your init.lua
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
--- optionally enable 24-bit colour
-vim.opt.termguicolors = true
-
--- OR setup with some options
-require("nvim-tree").setup({
-  sort = {
-    sorter = "case_sensitive",
-  },
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})

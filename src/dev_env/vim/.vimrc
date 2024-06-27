@@ -71,12 +71,10 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'https://github.com/crosbymichael/vim-cfmt.git'
 Plug 'https://github.com/cespare/vim-toml.git'
 Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
-Plug 'https://github.com/Vimjas/vim-python-pep8-indent.git'
 Plug 'https://github.com/vivien/vim-linux-coding-style.git'
 Plug 'https://github.com/wgwoods/vim-systemd-syntax.git'
 Plug 'https://github.com/hashivim/vim-terraform.git'
 Plug 'https://github.com/tpope/vim-git.git'
-Plug 'https://github.com/plasticboy/vim-markdown.git'
 Plug 'https://github.com/uarun/vim-protobuf.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/junegunn/goyo.vim.git'
@@ -94,10 +92,33 @@ Plug 'https://github.com/morhetz/gruvbox.git'
 Plug 'ziglang/zig.vim'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+"check later
+"Plug 'godlygeek/tabular'
+"Plug 'https://github.com/preservim/vim-markdown.git'
+
+"code completion //IntelliSense
+"Config not set yet
+Plug 'neovim/nvim-lspconfig' 
+Plug 'hrsh7th/nvim-cmp' "completion plugin
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer' "buffer completion
+Plug 'hrsh7th/cmp-path'  " path completion 
+Plug 'hrsh7th/cmp-cmdline'
+
+Plug 'hrsh7th/cmp-nvim-lua'
+
+" vsnip users.
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
 
 call plug#end()
 
+"explore
 " https://github.com/nvim-telekasten/telekasten.nvim
 " https://github.com/nvim-lualine/lualine.nvim
 " https://github.com/nvim-tree/nvim-web-devicons
-lua require("toggleterm").setup()
+
+" https://github.com/mrcjkb/rustaceanvim
+
+
+"lua require("toggleterm").setup()
